@@ -18,7 +18,7 @@ def generate_report(request):
         return JsonResponse({'report': cached_report, 'cached': True})
 
     # Simulacion del reporte
-    time.sleep(0.0005)  
+    time.sleep(2)  
 
     # Datos de ejemplo para el reporte
     report_data = {
